@@ -19,7 +19,7 @@ posts: list[dict] = [
     {
         "id": 2,
         "author": "Jane Doe",
-        "title": "Python is Great for Web Development",
+        "title": "Python is Great for Web Developmenttt",
         "content": "Python is a great language for web development, and FastAPI makes it even better.",
         "date_posted": "April 21, 2025",
     },
@@ -37,5 +37,6 @@ def home(request: Request):
 
 
 @app.get("/api/posts")
+
 def get_posts():
     return posts
